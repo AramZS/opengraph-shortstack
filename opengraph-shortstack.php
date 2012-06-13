@@ -178,7 +178,7 @@ function og_additive($content) {
 				<a href="' . $oguserlink . '" title="' . $ogTitle . '"><img alt="' .  $ogTitle . '" src="' . $ogCacheImg . '" /></a>
 			</div>
 			<div class="oglinkcontent">
-				<h4>' . $ogTitle . '</h4>
+				<h4><a href="' . $oguserlink . '" title="' . $ogTitle . '">' . $ogTitle . '</a></h4>
 				<p>' . $ogDescrip . '</p>
 			</div>';
 			
