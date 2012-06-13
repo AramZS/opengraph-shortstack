@@ -2,7 +2,7 @@
 
 /*
 Plugin Name: Open Graph Shortstack
-Plugin URI: http://aramzs.me/og-shortstack
+Plugin URI: http://aramzs.me/ogshortstack
 Description: This plugin does some nifty stuff with open graph. 
 Version: 0.2
 Author: Aram Zucker-Scharff
