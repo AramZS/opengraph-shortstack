@@ -188,5 +188,19 @@ function og_additive($content) {
 }
 add_filter('the_content', 'og_additive', 2);
 
+function syndication_additive() {
+	if( is_singular() && is_main_query() ) {
+
+		$postID = get_the_ID();
+		
+		$oguserlink = get_post_meta($postID, 'oglink', true);
+	
+		echo '<meta name="syndication-source" content="' . $oguserlink . '"/>'; 
+		
+	}
+	
+}
+add_action('wp_head', 'syndication_additive');
+
 
 ?>
